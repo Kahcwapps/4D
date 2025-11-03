@@ -8,6 +8,7 @@
   body {
     text-align: center;
     background: black;
+    animation: blink 3s;
   }
   @media (max-size: 1090px) {
     .gif {
@@ -15,9 +16,25 @@
       width: 350px;
     }
   }
+     .button {
+       height: 35px;
+       width: 140px;
+       border-radius: 8px;
+     }
+     @keyframes blink {
+       100% {
+         opacity: 1;
+       }
+       0% {
+         opacity: 0;
+       }
+     }
 </style>
 <body>
   <img src="background_4D.gif" alt="bg">
+  <ul>
+  <button class="button" onclick="document.location='https://t.me/kahcwapps4d'">Go to the telegram channel</button>
+  </ul>
 </body>
 <script>
   
